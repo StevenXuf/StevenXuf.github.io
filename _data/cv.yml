@@ -2,18 +2,16 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Fan Xu
     - name: Languages
-      value: English, German
+      value: Chinese, English, German, Japanes
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Candidate
+      institution: University of Luxembourg, Esch-sur-Alzette, Luxembourg
+      year: 2023 - present
       description:
         - Description 1.
         - Description 2.
@@ -75,18 +73,11 @@
       items:
         - Nobel Prize in Physics
         - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
       items:
         - Description 1.
         - Description 2.
