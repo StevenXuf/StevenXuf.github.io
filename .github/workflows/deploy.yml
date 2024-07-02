@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      - main
+      # - main
     paths:
       - "assets/**"
       - "**.bib"
@@ -31,7 +31,7 @@ on:
   pull_request:
     branches:
       - master
-      - main
+      # - main
     paths:
       - "assets/**"
       - "**.bib"
